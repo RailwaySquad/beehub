@@ -10,10 +10,10 @@ function ListFriend (){
                     color: "#31363F",
                     fontSize: "17px",
                     fontWeight: "500"
-                }} href="#" className="">
+                }} href="#" >
                     <Image src="\assets\images\user\fuxuan3.png" style={{marginRight: "15px",width:"37px",height: "37px"}} roundedCircle />
                     Friends 1                                                                                       
-                    <span class="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
+                    <span className="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
                         Online 15 minutes
                     </span>
                 </a>
@@ -28,7 +28,7 @@ function ListFriend (){
                 }} href="#">
                     <Image src="\assets\images\user\90b475134e034c4a276dd70323161d5f_597349425002811025.webp" style={{marginRight: "15px",width:"37px",height: "37px"}} roundedCircle />
                     Friends 2    
-                    <span class="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
+                    <span className="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
                         Online 25 minutes
                     </span>                                                                                   
                 </a>
@@ -43,7 +43,7 @@ function ListFriend (){
                 }} href="#">
                     <Image src="\assets\images\user\bw-1.png" style={{marginRight: "15px",width:"37px",height: "37px"}} roundedCircle />
                     Friends 3  
-                    <span class="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
+                    <span className="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
                         Online 15 days
                     </span>                                                                                    
                 </a>
@@ -58,7 +58,7 @@ function ListFriend (){
                 }} href="#">
                     <Image src="\assets\images\user\huohuo-6.png" style={{marginRight: "15px",width:"37px",height: "37px"}} roundedCircle />
                     Friends 4 
-                    <span class="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
+                    <span className="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
                         Online 2 minutes
                     </span>                                                                                      
                 </a>
@@ -75,7 +75,7 @@ function ListFriend (){
                 }} href="#">
                     <Image src="\assets\images\user\jingliu.png" style={{marginRight: "15px",width:"37px",height: "37px"}} roundedCircle />
                     Friends 5  
-                    <span class="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
+                    <span className="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
                         Online 10 minutes
                     </span>                                                                                       
                 </a>
@@ -90,7 +90,7 @@ function ListFriend (){
                 }} href="#">
                     <Image src="\assets\images\user\sp-4.png" style={{marginRight: "15px",width:"37px",height: "37px"}} roundedCircle />
                     Friends 6  
-                    <span class="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
+                    <span className="d-inlineblock " style={{fontSize: "10px",float: "right", marginTop: "18px"}} >
                         Online 1 hour
                     </span>                                                                                   
                 </a>

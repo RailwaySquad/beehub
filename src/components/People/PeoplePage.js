@@ -5,6 +5,20 @@ import NavigatorBar2 from "../navigation_bar/NavigatorBar2";
 import PeopleCard from "../PeopleCard/PeopleCard";
 import { Search } from "react-bootstrap-icons";
 function PeoplePage(){
+    const handelClick=(e)=>{
+        const badge= e.target.querySelector(".badge");
+        const otherbadge =document.querySelectorAll('.badge');
+        if(badge!=null){
+            otherbadge.forEach((ba)=>{
+                if(ba.classList.contains("bg-primary")){
+                    ba.classList.toggle("bg-primary");
+                    ba.classList.toggle("bg-secondary");
+                };
+            });
+            badge.classList.toggle('bg-secondary');
+            badge.classList.toggle('bg-primary');
+        }
+    }
     return (
 
         <Row>
@@ -17,15 +31,15 @@ function PeoplePage(){
                 <Container fluid className='ps-4' style={{marginTop: "60px"}}>
                     <Row>
                         <Col xl={12} className="mt-2">
-                            <Nav justify  variant="tabs" defaultActiveKey="/people/friend">
+                            <Nav justify  variant="tabs" defaultActiveKey="friend">
                                 <Nav.Item>
-                                    <Nav.Link href="/people/friend">Friends <Badge bg="primary">9</Badge></Nav.Link>
+                                    <Nav.Link eventKey="friend" onClick={handelClick}>Friends <Badge bg="primary">9</Badge></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-1">Following <Badge bg="secondary">66</Badge></Nav.Link>
+                                    <Nav.Link eventKey="following" onClick={handelClick}>Following <Badge bg="secondary">66</Badge></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Followers <Badge bg="secondary">3</Badge></Nav.Link>
+                                    <Nav.Link eventKey="follower" onClick={handelClick}>Followers <Badge bg="secondary">3</Badge></Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <hr/>
